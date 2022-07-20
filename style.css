@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Allerta',sans-serif;
+    height: 100vh;
+}
+
+
+/* NavBar */
+
+#navbarMonstera{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8rem;
+    width: 80vw;
+    margin: auto;
+}
+
+#navFirst img{
+    width: 7rem;
+}
+
+#navMid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navMid div{
+    margin-right: 5rem;
+}
+
+#navMid div:first-child{
+    padding-bottom: 5px;
+    border-bottom: 2px solid #000;
+}
+
+#navEnd{
+    display: flex;
+}
+#navEnd div{
+    margin-right: 2rem;
+}
+
+/* Hero Section */
+
+#midWhole{
+    width: 80vw;
+    margin: auto;
+}
+
+#midWholePart1{
+    width: 50vw;
+    background-color: antiquewhite;
+    line-height: 1.3;
+    margin-top: 7rem;
+}
+
+#midWholePart11 div ul li:first-child{
+    font-size: 2.5rem;
+    margin-bottom: -1rem;
+    font-weight: 900;
+}
+
+#midWholePart11 div ul li:nth-child(3), #midWholePart11 div ul li:nth-child(4){
+    font-size: 1rem;
+}
+
+#imgMain{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 40rem;
+}
+
+#midWholePart121{
+    font-size: .8rem;
+    display: flex;
+    background-color: blue;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    
+}
+
+#midWholePart121 div{
+    margin-right: .5rem;
+
+}
+
+#midWholePart122 img{
+    height: 15px;
+   
+}
+
+#midWholePart122{
+    position: absolute;
+    right: 33rem;
+    bottom: .3rm;
+}
+#midWholePart121 div h1{
+    background-color: blueviolet;
+    padding: 1rem 2.5rem;
+ 
+}
