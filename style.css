@@ -56,9 +56,12 @@ body{
 
 #midWholePart1{
     width: 50vw;
-    background-color: antiquewhite;
     line-height: 1.3;
     margin-top: 7rem;
+}
+
+#midWholePart11{
+    margin-bottom: 1.5rem;
 }
 
 #midWholePart11 div ul li:first-child{
@@ -81,7 +84,6 @@ body{
 #midWholePart121{
     font-size: .8rem;
     display: flex;
-    background-color: blue;
     justify-content: flex-start;
     align-items: center;
     position: relative;
@@ -104,7 +106,41 @@ body{
     bottom: .3rm;
 }
 #midWholePart121 div h1{
-    background-color: blueviolet;
-    padding: 1rem 2.5rem;
- 
+    background-color: #466d4f;
+    padding: .7rem 2rem;
+    border-radius: 30px;
+}
+
+#midWholePart13{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.midWholePart13Parts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+#feeding {
+    height: 60px;
+    margin-right: 16px;
+}
+
+#light{
+    height: 60px;
+    margin-right: 16px;
+}
+
+#care{
+    height: 60px;
+    margin-right: 16px;
+}
+
+.text{
+    font-size: 12px;
+    
 }
